@@ -21,6 +21,29 @@
   background-position: center;
 }
 
+.box .layover{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+h2{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 5px 5px black;
+}
+
+.box:hover .layover{
+  display: none;
+}
+
+
+
 #roma{
   background-image: url('https://cdn.pixabay.com/photo/2019/10/06/08/57/architecture-4529605_960_720.jpg');
 }
