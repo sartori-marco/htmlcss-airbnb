@@ -15,13 +15,12 @@ body{
 
 }
 
-.box{
-  width: 300px;
+.box{  
   height: 300px;
   background-color: green;
   margin: 5px 0;
   background-size: cover;
-  background-position: center;
+
 }
 
 .box .layover{
